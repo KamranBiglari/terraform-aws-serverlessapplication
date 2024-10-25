@@ -1,5 +1,5 @@
 module "serverlessrepo" {
-  source         = "../"
+  source         = "../../"
   name           = "AthenaMySQLConnector"
   application_id = "arn:aws:serverlessrepo:us-east-1:292517598671:applications/AthenaMySQLConnector"
   parameters = {
